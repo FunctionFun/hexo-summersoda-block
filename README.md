@@ -6,7 +6,7 @@ hexo 主题 夏日苏打 插件，用于插入PDF、网页Demo、思维导图、
 ### Install 安装
 
 ```
-$ npm i https://github.com/FunctionFun/hexo-summersoda-block.git -S
+$ npm i git+https://github.com/FunctionFun/hexo-summersoda-block.git -S
 ```
 
 ### PDF 文档
