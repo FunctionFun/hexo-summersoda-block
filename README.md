@@ -63,7 +63,7 @@ $ npm i git+https://github.com/FunctionFun/hexo-summersoda-block.git -S
 
 ```ejs
 <!-- Bilibili 视频id -->
-{% music 1953828422 %}
+{% video BV1YA4y1R7RJ %}
 ```
 
 ##### 如何获取Bilibili视频id
