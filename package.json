@@ -1,0 +1,21 @@
+{
+  "name": "hexo-summersoda-block",
+  "version": "1.0.0",
+  "description": "hexo 主题 夏日苏打 插件，用于展示 思维导图、PDF、网页Demo等功能。",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FunctionFun/hexo-summersoda-block.git"
+  },
+  "author": "FunctionFun <functionfun@qq.com> (https://functionfun.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FunctionFun/hexo-summersoda-block/issues"
+  },
+  "homepage": "https://github.com/FunctionFun/hexo-summersoda-block#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "markmap-common": "^0.13.4",
+    "markmap-lib": "^0.13.5"
+  }
+}
