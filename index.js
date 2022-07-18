@@ -11,6 +11,8 @@ hexo.extend.tag.register("music", require("./lib/music")(hexo));
 
 hexo.extend.tag.register("video", require("./lib/video")(hexo));
 
+hexo.extend.tag.register("demo", require("./lib/demo")(hexo), { ends: true });
+
 hexo.extend.tag.register("mk", require("./lib/mk")(hexo), { ends: true });
 
 hexo.extend.filter.register('after_render:html', require("./lib/loadLib")(hexo));
