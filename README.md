@@ -9,6 +9,17 @@ hexo 主题 夏日苏打 插件，用于插入PDF、网页Demo、思维导图、
 $ npm i git+https://github.com/FunctionFun/hexo-summersoda-block.git -S
 ```
 
+### dependencies 依赖库
+
+- markmap-common
+- markmap-lib
+
+如果您未安装以上依赖库，那么可能会导致报错。
+
+解决办法：
+
+再次执行 `npm i` 即可。
+
 ### PDF 文档
 
 #### 参数
