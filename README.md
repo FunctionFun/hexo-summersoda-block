@@ -20,6 +20,18 @@ $ npm i git+https://github.com/FunctionFun/hexo-summersoda-block.git -S
 
 再次执行 `npm i` 即可。
 
+### unable to verify the first certificate 安装失败
+
+这是因为本插件还在开发阶段，目前没有传到 npm 商店中，因此需要安装使用的话，需要关闭 ssl 验证。
+
+关闭方法：
+
+```
+npm config set strict-ssl false
+```
+
+如果担心安全问题，可以使用 Github 的 Download Zip 按钮下载源码拷贝到 node_modules 中。
+
 ### PDF 文档
 
 #### 参数
